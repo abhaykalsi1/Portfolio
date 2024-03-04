@@ -1,5 +1,5 @@
 <svelte:head>
-    <title>Info</title> 
+	<title>Info | Abhay Kalsi</title>
 </svelte:head>
 
 <div class="flex min-h-dvh items-center justify-center">
