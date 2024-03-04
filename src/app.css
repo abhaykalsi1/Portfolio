@@ -53,8 +53,12 @@ html {
 }
 
 /* Font */
-body {
+html {
 	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #000;
 	overscroll-behavior: none;
 }
 h1 {
