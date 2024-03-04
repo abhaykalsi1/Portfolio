@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	min-height: 0vw;
+	font-size: calc(0.8vw + 0.3em);
+}
+/* Max Font Size */
+@media screen and (min-width: 1600px) {
+	html {
+		font-size: 1.1em;
+	}
+}
+/* Min Font Size */
+@media screen and (max-width: 991px) {
+	html {
+		font-size: calc(0.4vw + 0.625em);
+	}
+}
+.nav-link:hover {
+	@apply opacity-50 transition-all duration-500 ease-out;
+}
+.nav-link.active {
+	@apply opacity-35;
+}
