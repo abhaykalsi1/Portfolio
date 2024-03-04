@@ -67,7 +67,7 @@ h1 {
 
 /* Custom */
 .nav-link {
-	@apply transition-all duration-200 ease-out hover:opacity-50;
+	@apply transition-all duration-200 ease-in-out hover:opacity-50;
 }
 .nav-link.active {
 	@apply hidden opacity-35 sm:block;
