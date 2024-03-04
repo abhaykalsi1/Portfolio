@@ -6,9 +6,9 @@
 
 <div
 	class="navContainer
-    mt-4 flex justify-between gap-1 rounded-md bg-black px-4 text-[2rem] text-white transition-all ease-out sm:justify-evenly"
+    mt-4 flex justify-between gap-2 rounded-md px-4 text-[2rem] text-black sm:justify-evenly"
 >
 	<a href="./" class="nav-link" class:active={routeId == '/'}>Home</a>
-	<a href="./info" class="nav-link" class:active={routeId == '/info'}>Information</a>
-	<a href="./work" class="nav-link" class:active={routeId == '/work'}>Projects</a>
+	<a href="./projects" class="nav-link" class:active={routeId == '/projects'}>Projects</a>
+	<a href="./information" class="nav-link" class:active={routeId == '/information'}>Information</a>
 </div>

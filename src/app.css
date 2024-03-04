@@ -2,8 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
+webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+font-smoothing: antialiased;
+text-rendering: optimizeLegibility;
+::-moz-selection {
+	/* Code for Firefox */
+	color: white;
+	background: #333;
+}
+::selection {
+	color: white;
+	background: #333;
+}
+:root {
+	font-family: Inter, sans-serif;
+	font-feature-settings:
+		'liga' 1,
+		'calt' 1,
+		'ss01' 1,
+		'ss07' 1,
+		'ss08' 1,
+		'cv10' 1,
+		'cv01' 1;
+	font-weight: 400;
+	line-height: 1;
+	letter-spacing: -0.03em;
+}
+@supports (font-variation-settings: normal) {
+	:root {
+		font-family: InterVariable, sans-serif;
+	}
+}
+
+/* Wizardry */
 html {
-	min-height: 0vw;
 	font-size: calc(0.8vw + 0.3em);
 }
 /* Max Font Size */
@@ -18,9 +51,20 @@ html {
 		font-size: calc(0.4vw + 0.625em);
 	}
 }
-.nav-link:hover {
-	@apply opacity-50 transition-all duration-500 ease-out;
+
+/* Font */
+body {
+	scroll-behavior: smooth;
+	overscroll-behavior: none;
+}
+h1 {
+	font-size: 2rem;
+}
+
+/* Custom */
+.nav-link {
+	@apply transition-all duration-200 ease-out hover:opacity-50;
 }
 .nav-link.active {
-	@apply opacity-35;
+	@apply hidden opacity-35 sm:block;
 }
