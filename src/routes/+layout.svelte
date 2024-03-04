@@ -10,5 +10,5 @@
 </header>
 
 <main class="px-5">
-		<slot />
+	<slot />
 </main>
