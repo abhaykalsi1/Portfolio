@@ -1,4 +1,4 @@
-Hi there! This site is made using:
+Hi there! This site was made using:
 — Sveltekit
 — Tailwind CSS
 — Vercel (deployment/hosting)
