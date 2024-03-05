@@ -7,7 +7,6 @@ webkit-font-smoothing: antialiased;
 font-smoothing: antialiased;
 text-rendering: optimizeLegibility;
 ::-moz-selection {
-	/* Code for Firefox */
 	color: white;
 	background: #333;
 }
@@ -25,9 +24,10 @@ text-rendering: optimizeLegibility;
 		'ss08' 1,
 		'cv10' 1,
 		'cv01' 1;
-	font-weight: 400;
-	line-height: 1;
-	letter-spacing: -0.03em;
+	font-weight: 340;
+	letter-spacing: -0.015em;
+	color: #404040;
+	line-height: 1.15;
 }
 @supports (font-variation-settings: normal) {
 	:root {
@@ -52,22 +52,24 @@ html {
 	}
 }
 
-/* Font */
 html {
 	scroll-behavior: smooth;
-}
-
-body {
 	background-color: #000;
 }
+
 h1 {
 	font-size: 2rem;
 }
 
+a:not(.nav-link) {
+	@apply border-b transition-colors hover:border-b-emerald-400
+}
+
+
 /* Custom */
 .nav-link {
-	@apply transition-all duration-200 ease-in-out hover:opacity-50;
+	@apply leading-none transition-all duration-200 ease-in-out hover:opacity-50;
 }
 .nav-link.active {
-	@apply hidden opacity-35 sm:block;
+	@apply hidden opacity-50 sm:block;
 }

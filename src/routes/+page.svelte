@@ -2,6 +2,6 @@
 	<title>Abhay Kalsi</title>
 </svelte:head>
 
-<div class="flex min-h-dvh flex-col items-center justify-center">
-	<h1 class="text-center text-[3rem]">The<br />( Grasshopper )<br />Lies Heavy.</h1>
+<div class="flex min-h-svh flex-col">
+	<h1 class="text-[3rem] leading-none">The<br />( Grasshopper )<br />Lies Heavy.</h1>
 </div>
