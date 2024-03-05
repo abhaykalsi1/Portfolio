@@ -8,7 +8,7 @@
 		<div class="w-1/3 md:w-2/5">
 			<h3 class="text-[1rem] md:text-[1.5rem]">( Contact )</h3>
 		</div>
-		<span class="w-2/3 max-w-[30ch] text-[2rem] md:text-[3rem]">
+		<span class="w-2/3 max-w-[30ch] text-[1.5rem] md:text-[3rem]">
 			<span class="opacity-60"> Have&nbsp;Brain,&nbsp;Will&nbsp;Travel. </span>
 			<a href="mailto:abhaykalsi@outlook.com"> abhaykalsi(at)outlook.com </a>
 		</span>
