@@ -1,16 +1,16 @@
 Hi there! This site was made using:
-— Sveltekit
-— Tailwind CSS
+— Sveltekit<br/>
+— Tailwind CSS<br/>
 — Vercel (deployment/hosting)
 
 # Why Svelte / Sveltekit?
 In the age where websites are often weighed down by bloated client-side rendering (CSR) frameworks, hurting both user experience and search engine optimization (SEO), I prioritized principles that align with a focus on minimal JavaScript, accessibility, and environmental consciousness. SvelteKit proved to be an ideal framework for achieving these goals:
 
-- Component-based Architecture:
+- Component-based Architecture:<br/>
 Svelte encourages breaking your website into reusable components. This promotes better organization, making the website easier to manage and scale as it grows.
-- Minimal JavaScript Footprint: 
+- Minimal JavaScript Footprint:<br/>
 SvelteKit is a compiler-based framework, meaning it pre-processes much of the logic during the build phase. This results in smaller JavaScript files sent to the browser, leading to faster page loads, less energy used on user devices, and a smoother experience compared to frameworks that heavily rely on manipulating the DOM at runtime.
-- Navigation with Prefetching and Smart Updates: 
+- Navigation with Prefetching and Smart Updates:<br/>
 SvelteKit includes prefetching capabilities for near-instant page transitions. Its reactivity model allows it to intelligently update only the necessary parts of the page when any content needs to be changed. This avoids full page reloads, enhancing the user experience and reducing energy consumption by minimizing data transfer and browser work.
 
 # Tailwind CSS
