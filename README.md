@@ -3,7 +3,7 @@ Hi there! This site was made using:<br/>
 — Tailwind CSS<br/>
 — Vercel (deployment/hosting)
 
-#Install Dependencies and Run Dev-Server Locally:
+# Install Dependencies and Run Dev-Server Locally:
 - Install/update NodeJS
 - Run terminal:
 ```
