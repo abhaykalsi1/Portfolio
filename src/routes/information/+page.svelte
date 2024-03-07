@@ -10,7 +10,7 @@
 		</div>
 		<span class="w-2/3 max-w-[30ch] text-[1.5rem] md:text-[3rem]">
 			<span class="opacity-60"> Have&nbsp;Brain,&nbsp;Will&nbsp;Travel. </span>
-			<a href="mailto:abhaykalsi@outlook.com"> abhaykalsi(at)outlook.com </a>
+			<a href="mailto:abhaykalsi@outlook.com"> abhaykalsi@outlook.com </a>
 		</span>
 	</div>
 </div>
