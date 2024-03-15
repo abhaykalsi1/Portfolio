@@ -5,7 +5,7 @@
 
 <nav
 	class="navContainer
-	flex w-full justify-between gap-2 border-b pt-4 text-[1.5rem] sm:w-auto sm:justify-start"
+	flex w-full justify-between gap-2 border-b pt-4 text-xl sm:w-auto sm:justify-start"
 >
 	<a href="./" class="nav-link" class:active={routeId == '/'}> Home </a>
 	<a href="./projects" class="nav-link" class:active={routeId == '/projects'}>Projects</a>

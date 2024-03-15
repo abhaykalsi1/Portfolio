@@ -4,14 +4,14 @@
 	import Footer from '../components/footer.svelte';
 </script>
 
-<header class="sticky top-0 z-50 bg-white px-4">
+<header class="fixed top-0 z-50 w-full bg-white px-4">
 	<Navigation />
 </header>
 
-<main class="relative z-10 min-h-svh rounded-b-lg bg-white px-4 pt-4">
+<main class="relative z-10 min-h-svh rounded-b-lg bg-white px-4 pt-16">
 	<slot />
 </main>
 
-<footer class="sticky bottom-0 z-0 w-full">
+<footer class="sticky bottom-0 z-0 w-full px-4">
 	<Footer />
 </footer>

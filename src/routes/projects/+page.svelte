@@ -3,5 +3,5 @@
 </svelte:head>
 
 <div class="flex min-h-svh items-center justify-center">
-	<h1 class="text-[3rem]">(  Under Construction  )</h1>
+	<h1 class="text-5xl">(  bingbongbingbingbong  )</h1>
 </div>

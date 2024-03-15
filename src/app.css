@@ -1,11 +1,9 @@
+/* Tailwind Generated */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-font-smoothing: antialiased;
-text-rendering: optimizeLegibility;
+/* Selection */
 ::-moz-selection {
 	color: white;
 	background: #333;
@@ -14,7 +12,14 @@ text-rendering: optimizeLegibility;
 	color: white;
 	background: #333;
 }
+
+/* Type */
+
 :root {
+	webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
 	font-family: Inter, sans-serif;
 	font-feature-settings:
 		'liga' 1,
@@ -39,32 +44,37 @@ text-rendering: optimizeLegibility;
 html {
 	font-size: calc(0.8vw + 0.3em);
 }
-/* Max Font Size */
 @media screen and (min-width: 1600px) {
 	html {
 		font-size: 1.1em;
 	}
 }
-/* Min Font Size */
 @media screen and (max-width: 991px) {
 	html {
 		font-size: calc(0.4vw + 0.625em);
 	}
 }
 
+/* Defaults */
 html {
 	scroll-behavior: smooth;
 	background-color: #000;
 }
-
-h1 {
-	font-size: 2rem;
+body {
+	overscroll-behavior: none;
 }
 
 a:not(.nav-link) {
-	@apply border-b transition-colors hover:border-b-emerald-400
+	@apply border-b transition-colors duration-500 hover:border-b-emerald-400;
 }
+h1 {
+	font-size: 2.5rem;
+	line-height: 1.1;
 
+}
+h3 {
+	font-size: 1rem;
+}
 
 /* Custom */
 .nav-link {
