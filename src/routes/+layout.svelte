@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 	import '../app.css';
 	import Navigation from '../components/navigation.svelte';
 	import Footer from '../components/footer.svelte';

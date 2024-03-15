@@ -8,7 +8,7 @@
 <div class="mb-4 mt-2 hidden h-full border-neutral-800 text-white md:flex">
 	<div class="mt-2 flex w-1/5 flex-col justify-between">
 		<h1>Hear what<br />I hear:</h1>
-		
+
 		{@html '<!-- Toggle for Apple Music / Spotify -->'}
 		<div class="flex gap-2">
 			<button
@@ -35,7 +35,7 @@
 			class="apple-music mt-2 w-4/5"
 			allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
 			frameborder="0"
-			style="height:28rem;max-height:450px;overflow:hidden;border-radius:10px;"
+			style="height:450px;overflow:hidden;border-radius:10px;"
 			sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
 			src="https://embed.music.apple.com/in/playlist/february-2024/pl.u-aZb00o9T1Bdj7d0?theme=dark"
 		></iframe>
