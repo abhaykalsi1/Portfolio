@@ -1,9 +1,9 @@
-/* Tailwind Generated */
+/*! Tailwind Generated */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Selection */
+/*! Selection */
 ::-moz-selection {
 	color: white;
 	background: #333;
@@ -13,8 +13,7 @@
 	background: #333;
 }
 
-/* Type */
-
+/*! Type */
 :root {
 	webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -40,7 +39,7 @@
 	}
 }
 
-/* Wizardry */
+/*! Wizardry */
 html {
 	font-size: calc(0.8vw + 0.3em);
 }
@@ -55,28 +54,23 @@ html {
 	}
 }
 
-/* Defaults */
+/*! Defaults */
 html {
 	scroll-behavior: smooth;
 	background-color: #000;
 }
-body {
-	overscroll-behavior: none;
-}
-
 a:not(.nav-link) {
 	@apply border-b transition-colors duration-500 hover:border-b-emerald-400;
 }
 h1 {
 	font-size: 2.5rem;
 	line-height: 1.1;
-
 }
 h3 {
 	font-size: 1rem;
 }
 
-/* Custom */
+/*! Custom */
 .nav-link {
 	@apply leading-none transition-all duration-200 ease-in-out hover:opacity-50;
 }

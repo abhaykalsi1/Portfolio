@@ -9,6 +9,7 @@
 </header>
 
 <main class="relative z-10 min-h-svh rounded-b-lg bg-white px-4 pt-16">
+{@html '<!-- Page Slot -->'}
 	<slot />
 </main>
 

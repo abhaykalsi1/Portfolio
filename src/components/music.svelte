@@ -8,16 +8,18 @@
 <div class="mb-4 mt-2 hidden h-full border-neutral-800 text-white md:flex">
 	<div class="mt-2 flex w-1/5 flex-col justify-between">
 		<h1>Hear what<br />I hear:</h1>
+		
+		{@html '<!-- Toggle for Apple Music / Spotify -->'}
 		<div class="flex gap-2">
 			<button
-				class="transition-color border-neutral-500 flex rounded-full border px-1.5 text-[0.9rem] duration-300 ease-out hover:border-white"
+				class="transition-color flex rounded-full border border-neutral-500 px-1.5 text-[0.9rem] duration-300 ease-out hover:border-white"
 				class:active={activeMusic === 'appleMusic'}
 				on:click={() => toggleIframe('appleMusic')}
 			>
 				Apple Music
 			</button>
 			<button
-				class="transition-color border-neutral-500 flex rounded-full border px-1.5 text-[0.9rem] duration-300 ease-out hover:border-white"
+				class="transition-color flex rounded-full border border-neutral-500 px-1.5 text-[0.9rem] duration-300 ease-out hover:border-white"
 				class:active={activeMusic === 'spotify'}
 				on:click={() => toggleIframe('spotify')}
 			>
@@ -25,6 +27,8 @@
 			</button>
 		</div>
 	</div>
+
+	{@html '<!-- Apple Music embed -->'}
 	{#if activeMusic === 'appleMusic'}
 		<iframe
 			title="Apple Music embed"
@@ -36,6 +40,8 @@
 			src="https://embed.music.apple.com/in/playlist/february-2024/pl.u-aZb00o9T1Bdj7d0?theme=dark"
 		></iframe>
 	{/if}
+
+	{@html '<!-- Spotify embed -->'}
 	{#if activeMusic === 'spotify'}
 		<iframe
 			title="Spotify embed"

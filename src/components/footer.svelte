@@ -2,7 +2,10 @@
 	import Music from "./music.svelte";
 </script>
 
+{@html '<!-- Music -->'}
 <Music />
+
+{@html '<!-- Footer Info -->'}
 <div class=" flex h-full border-t border-neutral-800 py-4 gap-1.5 mb-16">
 	<div class="flex w-1/3 flex-col md:w-1/5">
 		<h3 class="leading-tight text-white opacity-50">©</h3>
