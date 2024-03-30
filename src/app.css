@@ -5,20 +5,17 @@
 
 /*! Selection */
 ::-moz-selection {
-	color: white;
-	background: #333;
+	color: #e7e5e4;
+	background: black;
 }
 ::selection {
-	color: white;
-	background: #333;
+	color: #e7e5e4;
+	background: black;
 }
 
 /*! Type */
 :root {
-	webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font-smoothing: antialiased;
-	text-rendering: optimizeLegibility;
+
 	font-family: Inter, sans-serif;
 	font-feature-settings:
 		'liga' 1,
@@ -28,9 +25,9 @@
 		'ss08' 1,
 		'cv10' 1,
 		'cv01' 1;
-	font-weight: 340;
+	font-weight: 400;
 	letter-spacing: -0.015em;
-	color: #404040;
+	color: #000;
 	line-height: 1.15;
 }
 @supports (font-variation-settings: normal) {
@@ -56,24 +53,35 @@ html {
 
 /*! Defaults */
 html {
-	scroll-behavior: smooth;
-	background-color: #000;
+	background-color: #e7e5e4;
 }
 a:not(.nav-link) {
-	@apply border-b transition-colors duration-500 hover:border-b-emerald-400;
+	@apply border-b transition-colors duration-500 hover:border-b-black;
 }
 h1 {
 	font-size: 2.5rem;
+	text-wrap: balance;
 	line-height: 1.1;
+}
+h2 {
+	font-size: 1.3rem;
+	text-wrap: balance;
 }
 h3 {
 	font-size: 1rem;
 }
-
-/*! Custom */
-.nav-link {
-	@apply leading-none transition-all duration-200 ease-in-out hover:opacity-50;
+img {
+	object-fit: cover;
 }
-.nav-link.active {
-	@apply hidden opacity-50 sm:block;
+.cont img {
+	border-radius: 4px;
+	filter: grayscale(100%) contrast(80%) brightness(90%);
+	transition: all 500ms ease-out;
+}
+.cont:hover img {
+	border-radius: 8px;
+	filter: grayscale(0%) contrast(100%) brightness(100%);
+}
+main {
+	min-height: 100svh;
 }
