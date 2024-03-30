@@ -9,7 +9,7 @@
 	let targetMoveY = 0;
 	let moveX = 0;
 	let moveY = 0;
-	let windowWidth = window.innerWidth;
+	let windowWidth;
 
 	function updatePosition(e) {
 		const xPercent = e.clientX / window.innerWidth;
@@ -25,28 +25,25 @@
 	}
 
 	onMount(() => {
+		windowWidth = window.innerWidth;
 		requestAnimationFrame(animate);
+
 		const handleResize = () => {
 			windowWidth = window.innerWidth;
 		};
 		window.addEventListener('resize', handleResize);
 
-		return () => {
-			window.removeEventListener('resize', handleResize);
-		};
-	});
-
-	$: {
 		if (windowWidth > 768) {
 			window.addEventListener('mousemove', updatePosition);
-		} else {
-			window.removeEventListener('mousemove', updatePosition);
 		}
-	}
-	onDestroy(() => {
-		window.removeEventListener('mousemove', updatePosition);
+
+		return () => {
+			window.removeEventListener('resize', handleResize);
+			window.removeEventListener('mousemove', updatePosition);
+		};
 	});
 </script>
+
 
 <img
 	{src}
