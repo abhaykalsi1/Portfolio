@@ -2,20 +2,20 @@
 	<title>Work | Abhay Kalsi</title>
 </svelte:head>
 
-<div class="px-2 pt-16 md:pt-12">
+<div class="px-2 pt-1 md:pt-0">
 	{@html '<!-- Bar Prima -->'}
 	<div class="mt-2 flex flex-row gap-2">
 		<div class="cont w-full md:w-3/5">
 			<img src="/2.png" alt="" class="mb-1" />
 		</div>
-		<div class="cont w-1/4 md:w-1/5">
+		<div class="cont w-auto md:w-1/5">
 			<img src="/3.png" alt="" class="mb-1 aspect-square" />
 			<h2 class="mb-0.5">Emulating History on Queen St.</h2>
 			<h1 class="project-name">Bar Prima</h1>
 		</div>
 	</div>
 
-	<div class="h-1"></div>
+	<div class="h-16 md:h-1"></div>
 
 	{@html '<!-- Mains -->'}
 	<div class="cont w-full md:w-3/5">
@@ -42,12 +42,12 @@
 
 	{@html '<!-- Watercolour -->'}
 	<div class="mt-2 flex flex-row items-end gap-2">
-		<div class="cont w-1/4 md:w-1/5">
+		<div class="cont w-full md:w-1/5">
 			<h2 class="mb-0.5">A Journey through the Mediterranean</h2>
 			<h1 class="project-name mb-1">Watercolour</h1>
 			<img src="/watercolour/2.jpg" alt="" class="mb-1 aspect-square" />
 		</div>
-		<div class="cont w-3/4 md:w-4/5">
+		<div class="cont w-auto md:w-4/5">
 			<img src="/watercolour/1.jpg" alt="" class="mb-1 aspect-video" />
 		</div>
 	</div>

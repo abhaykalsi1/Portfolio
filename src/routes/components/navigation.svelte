@@ -1,6 +1,6 @@
 <script>
-	import { page } from '$app/stores';
-	$: routeId = $page.route.id;
+    import { page } from '$app/stores';
+    $: routeId = $page.route.id || '';
 </script>
 
 <nav
@@ -8,19 +8,19 @@
 	flex justify-between pt-2 text-3xl sm:justify-start md:text-xl"
 >
 	<a
-		href="./"
+		href="/"
 		class="nav-link w-auto leading-none transition-all duration-500 ease-in-out hover:opacity-50 sm:w-1/5"
 		class:active={routeId == '/'}
 	>
 		Home
 	</a>
 	<a
-		href="./work"
+		href="/work"
 		class="nav-link w-auto leading-none transition-all duration-500 ease-in-out hover:opacity-50 sm:w-1/5"
-		class:active={routeId == '/work'}>Work</a
+		class:active={routeId.startsWith('/work')}>Work</a
 	>
 	<a
-		href="./contact"
+		href="/contact"
 		class="nav-link w-auto leading-none transition-all duration-500 ease-in-out hover:opacity-50 sm:w-1/5"
 		class:active={routeId == '/contact'}>Contact</a
 	>
