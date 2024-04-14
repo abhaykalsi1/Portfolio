@@ -47,22 +47,6 @@
 
 	<div class="spacer"></div>
 
-	{@html '<!-- Watercolour -->'}
-	<div class="mt-2 flex flex-row items-end gap-2">
-		<a href="/projects/watercolour" class="cont w-full md:w-1/5 border-none">
-			<div>
-				<h2 class="mb-0.5">A Journey through the Mediterranean</h2>
-				<h1 class="project-name mb-1">Watercolour</h1>
-				<img src="/watercolour/2.jpg" alt="" class="mb-1 aspect-square" />
-			</div>
-		</a>
-		<div class="cont w-auto md:w-4/5">
-			<img src="/watercolour/1.jpg" alt="" class="mb-1 aspect-video" />
-		</div>
-	</div>
-
-	<div class="spacer"></div>
-
 	{@html '<!-- Print Paper Production -->'}
 	<div class="flex flex-row gap-2">
 		<div class="cont hidden min-w-[20%] md:block"></div>

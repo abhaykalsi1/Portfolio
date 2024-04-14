@@ -3,44 +3,59 @@
 		<div
 			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-zinc-50 px-12 py-8 md:px-48 md:py-36"
 		>
-			<img src="/barprima/2.png" alt="" class="w-1/2 rounded-sm" />
-			<img src="/barprima/3.png" alt="" class="w-1/2 rounded-sm" />
+			<img src="/nchoice/2.jpg" alt="" class="w-1/2 rounded-sm" />
+			<img src="/nchoice/6.jpg" alt="" class="w-1/2 rounded-sm" />
 		</div>
-		<div class="relative mb-2 items-start gap-2 overflow-hidden rounded-md">
-			<img
-				src="/barprima/coaster.gif"
-				alt=""
-				class="absolute left-1/2 top-1/2 w-1/2 -translate-x-1/2 -translate-y-1/2"
-			/>
-			<img src="/barprima/4.jpg" alt="" class="z-10 mb-2 rounded-md" />
+		<img src="/nchoice/5.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<div
+			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-black px-12 py-8 md:px-48 md:py-36"
+		>
+			<img src="/nchoice/logo.png" alt="" class="w-1/2" />
 		</div>
-		<img src="/barprima/bc2.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<div
+			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-zinc-50 px-12 py-8 md:px-48 md:py-36"
+		>
+			<img src="/nchoice/9.jpg" alt="" class="w-full rounded-sm" />
+		</div>
+		<img src="/nchoice/ill.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<img src="/nchoice/4.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<img src="/nchoice/1.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<div
+			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-zinc-50 px-12 py-8 md:px-48 md:py-36"
+		>
+			<img src="/nchoice/8.jpg" alt="" class="w-full rounded-sm" />
+		</div>
+		<img src="/nchoice/7.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<img src="/nchoice/10.jpg" alt="" class="mb-2 w-full rounded-md" />
 	</div>
 
-	<div class="px-2 pr-4 pt-32 md:w-1/3 md:py-1">
+	<div class="px-4 pr-4 pt-32 md:w-1/3 md:px-2 md:py-1">
 		<div class="sticky top-1">
-			<h1 class="mb-12 text-balance text-3xl opacity-35 md:text-xl">MAINS</h1>
+			<h1 class="mb-4 text-balance text-5xl opacity-35 md:mb-12 md:text-xl">Nihilist's Choice</h1>
 			<div class="mb-8 md:-ml-2 md:mb-4 md:mr-2">
 				<div class="w-full rounded-md bg-neutral-50 p-2 text-[1rem] leading-[1.2]">
 					<p>
+						Industry:<br />
+						<span class="opacity-50">Food & Beverage</span>
+					</p>
+					<br />
+					<p>
 						Involvement:<br />
-						<span class="opacity-50">Brand Identity, Strategy, Motion</span>
+						<span class="opacity-50">Visual Identity, Packaging</span>
 					</p>
 					<br />
 					<p>
 						Team:<br />
-						<span class="opacity-50">N.A.</span>
+						<span class="opacity-50">( School Project )</span>
 					</p>
-					<br />
-					<a href="http://www.barprima.ca" target="_blank"> barprima.ca ↗ </a>
 				</div>
 			</div>
 			<p class="text-balance text-[1.25rem] leading-[1.2]">
-				Designed to resemble an imaginative culinary institution derived a century ago, the visual
-				identity of Bar Prima consists of an intricate framework of a conceptual logo evolution and
-				story—dating back to the 1900’s, to present day, 2023. By showcasing the existence of Bar
-				Prima and its logo evolution throughout the decades, the brand stays referential to both the
-				classic and contemporary, without being a pastiche of either.
+				Two philosophers are engaged in a never-ending conversation filled with frustration,
+				dilemma, and an existential crisis. They've been at it for years and years, and the only
+				thing they can agree upon is their absolute disdain for salted chips, dark chocolate, and
+				ginger beer. And so, they decide to start a business<br /><br />Life is meaningless. Consume
+				some ______________ while you’re at it.
 			</p>
 		</div>
 	</div>

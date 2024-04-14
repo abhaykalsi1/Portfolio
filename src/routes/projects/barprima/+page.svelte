@@ -21,7 +21,7 @@
 		</div>
 		<img src="/barprima/1.jpg" alt="" class="mb-2 rounded-md" />
 		<div
-			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-zinc-50 px-12 py-8 md:px-48 md:py-36"
+			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-zinc-50 px-12 py-8 md:px-36 md:py-28"
 		>
 			<img src="/barprima/history.jpg" alt="" class="mb-2 rounded-md" />
 		</div>
@@ -53,11 +53,17 @@
 		<img src="/barprima/bc2.jpg" alt="" class="mb-2 w-full rounded-md" />
 		<img src="/barprima/5.jpg" alt="" class="mb-2 w-full rounded-md" />
 	</div>
-	<div class="px-2 pr-4 pt-32 md:w-1/3 md:py-1">
+
+	<div class="px-4 md:px-2 pr-4 pt-32 md:w-1/3 md:py-1">
 		<div class="sticky top-1">
-			<h1 class="mb-12 text-balance text-3xl opacity-35 md:text-xl">Bar Prima</h1>
+			<h1 class="mb-4 text-balance text-5xl opacity-35 md:mb-12 md:text-xl">Bar Prima</h1>
 			<div class="mb-8 md:-ml-2 md:mb-4 md:mr-2">
 				<div class="w-full rounded-md bg-neutral-50 p-2 text-[1rem] leading-[1.2]">
+					<p>
+						Industry:<br />
+						<span class="opacity-50">Hospitality—Restaurant</span>
+					</p>
+					<br />
 					<p>
 						Involvement:<br />
 						<span class="opacity-50">Brand Identity, Web Design, Motion, Illustration</span>
