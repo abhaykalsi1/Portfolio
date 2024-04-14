@@ -28,7 +28,7 @@
 		font-size: 2rem;
         opacity: 0.4;
         border: 0;
-        transition: opacity 0.5s ease-out;
+        transition: opacity 0.3s ease-out;
 	}
 	.active {
 		opacity: 1;
@@ -39,7 +39,7 @@
 			padding-right: 0.5rem;
         }
 		a {
-			font-size: 4rem;
+			font-size: 3rem;
 		}
 	}
 </style>

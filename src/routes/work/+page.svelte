@@ -8,7 +8,7 @@
 		<div class="cont w-full md:w-3/5">
 			<img src="/2.png" alt="" class="mb-1" />
 		</div>
-		<a href="/projects/barprima" class="cont w-auto border-none md:w-1/5">
+		<a href="/projects/barprima" class="cont w-2/5 border-none md:w-1/5">
 			<div>
 				<img src="/3.png" alt="" class="mb-1 aspect-square" />
 				<h2 class="mb-0.5">Emulating History on Queen St.</h2>
@@ -30,31 +30,16 @@
 
 	<div class="spacer"></div>
 
-	{@html '<!-- Nihilists Choice -->'}
-	<div class="flex w-full justify-start gap-2">
-		<div class="cont hidden min-w-[20%] md:block"></div>
-		<div class="cont w-full md:w-1/5">
-			<img src="/nchoice/2.jpg" alt="" class="mb-1" />
-		</div>
-		<a href="/projects/nchoice" class="cont w-full border-none md:w-3/5">
-			<div>
-				<img src="/nchoice/1.jpg" alt="" class="mb-1" />
-				<h2 class="mb-0.5">Snacks for Pessimist People</h2>
-				<h1 class="project-name">Nihilist's Choice</h1>
-			</div>
-		</a>
-	</div>
-
-	<div class="spacer"></div>
-
 	{@html '<!-- Print Paper Production -->'}
-	<div class="flex flex-row gap-2">
+	<div class="flex flex-row gap-2 mb-16 md:mb-0">
 		<div class="cont hidden min-w-[20%] md:block"></div>
 		<a href="/projects/ppp" class="cont w-1/3 md:w-1/5 border-none">
 			<div>
 				<img src="/ppp/1.jpg" alt="" class="mb-1 aspect-square" />
-				<h2 class="mb-0.5">Not Your Average Paper Co.</h2>
-				<h1 class="project-name">Print Paper Production</h1>
+				<span class="absolute md:relative">
+					<h2 class="mb-0.5 pt-0.5">Not Your Average Paper Co.</h2>
+					<h1 class="project-name">Print Paper Production</h1>
+				</span>
 			</div>
 		</a>
 		<div class="cont w-1/3 md:w-1/5">
@@ -66,6 +51,23 @@
 		<div class="cont w-1/3 md:w-1/5">
 			<img src="/ppp/4.jpg" alt="" class="mb-1 aspect-square" />
 		</div>
+	</div>
+
+	<div class="h-16 md:h-28"></div>
+
+	{@html '<!-- Nihilists Choice -->'}
+	<div class="flex w-full justify-start gap-2">
+		<div class="cont hidden min-w-[20%] md:block"></div>
+		<div class="cont w-2/5 md:w-1/5">
+			<img src="/nchoice/2.jpg" alt="" class="mb-1" />
+		</div>
+		<a href="/projects/nchoice" class="cont w-full border-none md:w-3/5">
+			<div>
+				<img src="/nchoice/1.jpg" alt="" class="mb-1" />
+				<h2 class="mb-0.5">Snacks for Pessimist People</h2>
+				<h1 class="project-name">Nihilist's Choice</h1>
+			</div>
+		</a>
 	</div>
 
 	<div class="h-16 md:h-28"></div>
