@@ -6,10 +6,7 @@
 <div class="innerNav">
 	<a href="/work" class="" class:active={routeId == '/work'}> Case Studies, </a>
 	<a href="/work/individuals" class="" class:active={routeId == '/work/individuals'}>
-		Individuals,
-	</a>
-    <a href="/work/all" class="" class:active={routeId == '/work/all'}>
-		All Projects
+		Individuals
 	</a>
 </div>
 
@@ -28,7 +25,7 @@
     }
 
 	a {
-		font-size: 4rem;
+		font-size: 2rem;
         opacity: 0.4;
         border: 0;
         transition: opacity 0.5s ease-out;
@@ -42,7 +39,7 @@
 			padding-right: 0.5rem;
         }
 		a {
-			font-size: 3.5rem;
+			font-size: 4rem;
 		}
 	}
 </style>

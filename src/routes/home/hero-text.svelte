@@ -9,7 +9,7 @@
 		Welcome yourself to a springboard to all that he is, has been, and will be. Currently working at
 		Biography in Toronto, Abhay has experience in Art & Creative Direction, Brand Strategy, Graphic
 		Design, Web Design & Development, UI/UX, Motion, Illustration, and Copywriting among infinite
-		others.
+		other things.
 	</p>
 </div>
 

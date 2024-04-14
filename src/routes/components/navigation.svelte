@@ -9,21 +9,20 @@
 >
 	<a
 		href="/"
-		class="nav-link w-auto leading-none transition-all duration-500 ease-in-out hover:opacity-50 sm:w-1/5"
+		class="nav-link w-auto leading-none transition-all duration-300 ease-in-out hover:opacity-50 sm:w-1/5"
 		class:active={routeId == '/'}
 	>
 		Home
 	</a>
 	<a
 		href="/work"
-		class="nav-link w-auto leading-none transition-all duration-500 ease-in-out hover:opacity-50 sm:w-1/5"
+		class="nav-link w-auto leading-none transition-all duration-300 ease-in-out hover:opacity-50 sm:w-1/5"
 		class:active={routeId.startsWith('/work')}>Work</a
 	>
-	<a
-		href="/contact"
-		class="nav-link w-auto leading-none transition-all duration-500 ease-in-out hover:opacity-50 sm:w-1/5"
-		class:active={routeId == '/contact'}>Contact</a
-	>
+		<a
+		href="mailto:abhaykalsi@outlook.com"
+		class="nav-link w-auto leading-none transition-all duration-300 ease-in-out hover:opacity-50 sm:w-1/5">Email ↗</a
+		>
 </nav>
 
 <style>

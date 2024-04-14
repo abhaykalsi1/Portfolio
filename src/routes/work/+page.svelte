@@ -8,45 +8,54 @@
 		<div class="cont w-full md:w-3/5">
 			<img src="/2.png" alt="" class="mb-1" />
 		</div>
-		<div class="cont w-auto md:w-1/5">
-			<img src="/3.png" alt="" class="mb-1 aspect-square" />
-			<h2 class="mb-0.5">Emulating History on Queen St.</h2>
-			<h1 class="project-name">Bar Prima</h1>
-		</div>
+		<a href="/projects/barprima" class="cont w-auto border-none md:w-1/5">
+			<div>
+				<img src="/3.png" alt="" class="mb-1 aspect-square" />
+				<h2 class="mb-0.5">Emulating History on Queen St.</h2>
+				<h1 class="project-name">Bar Prima</h1>
+			</div>
+		</a>
 	</div>
 
 	<div class="h-16 md:h-1"></div>
 
 	{@html '<!-- Mains -->'}
-	<div class="cont w-full md:w-3/5">
-		<img src="/placeholder.png" alt="" class="mb-1 aspect-video" />
-		<h2 class="mb-0.5">An Art Institute for the New Society</h2>
-		<h1 class="project-name">MAINS</h1>
-	</div>
+	<a href="/projects/mains">
+		<div class="cont w-full md:w-3/5">
+			<img src="/placeholder.png" alt="" class="mb-1 aspect-video" />
+			<h2 class="mb-0.5">An Art Institute for the New Society</h2>
+			<h1 class="project-name">MAINS</h1>
+		</div>
+	</a>
 
 	<div class="spacer"></div>
 
 	{@html '<!-- Nihilists Choice -->'}
 	<div class="flex w-full justify-start gap-2">
+		<div class="cont hidden min-w-[20%] md:block"></div>
 		<div class="cont w-full md:w-1/5">
 			<img src="/nchoice/2.jpg" alt="" class="mb-1" />
 		</div>
-		<div class="cont w-full md:w-3/5">
-			<img src="/nchoice/1.jpg" alt="" class="mb-1" />
-			<h2 class="mb-0.5">Snacks for Pessimist People</h2>
-			<h1 class="project-name">Nihilist's Choice</h1>
-		</div>
+		<a href="/projects/nchoice" class="cont w-full border-none md:w-3/5">
+			<div>
+				<img src="/nchoice/1.jpg" alt="" class="mb-1" />
+				<h2 class="mb-0.5">Snacks for Pessimist People</h2>
+				<h1 class="project-name">Nihilist's Choice</h1>
+			</div>
+		</a>
 	</div>
 
 	<div class="spacer"></div>
 
 	{@html '<!-- Watercolour -->'}
 	<div class="mt-2 flex flex-row items-end gap-2">
-		<div class="cont w-full md:w-1/5">
-			<h2 class="mb-0.5">A Journey through the Mediterranean</h2>
-			<h1 class="project-name mb-1">Watercolour</h1>
-			<img src="/watercolour/2.jpg" alt="" class="mb-1 aspect-square" />
-		</div>
+		<a href="/projects/watercolour" class="cont w-full md:w-1/5 border-none">
+			<div>
+				<h2 class="mb-0.5">A Journey through the Mediterranean</h2>
+				<h1 class="project-name mb-1">Watercolour</h1>
+				<img src="/watercolour/2.jpg" alt="" class="mb-1 aspect-square" />
+			</div>
+		</a>
 		<div class="cont w-auto md:w-4/5">
 			<img src="/watercolour/1.jpg" alt="" class="mb-1 aspect-video" />
 		</div>
@@ -57,11 +66,13 @@
 	{@html '<!-- Print Paper Production -->'}
 	<div class="flex flex-row gap-2">
 		<div class="cont hidden min-w-[20%] md:block"></div>
-		<div class="cont w-1/3 md:w-1/5">
-			<img src="/ppp/1.jpg" alt="" class="mb-1 aspect-square" />
-			<h2 class="mb-0.5">Not Your Average Paper Co.</h2>
-			<h1 class="project-name">Print Paper Production</h1>
-		</div>
+		<a href="/projects/ppp" class="cont w-1/3 md:w-1/5 border-none">
+			<div>
+				<img src="/ppp/1.jpg" alt="" class="mb-1 aspect-square" />
+				<h2 class="mb-0.5">Not Your Average Paper Co.</h2>
+				<h1 class="project-name">Print Paper Production</h1>
+			</div>
+		</a>
 		<div class="cont w-1/3 md:w-1/5">
 			<img src="/ppp/2.jpg" alt="" class="mb-1 aspect-square" />
 		</div>
