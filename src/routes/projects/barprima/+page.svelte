@@ -3,27 +3,27 @@
 		<div
 			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-zinc-50 px-12 py-8 md:px-48 md:py-36"
 		>
-			<enhanced:img src="/barprima/2.png" alt="" class="w-1/2 rounded-sm" />
-			<enhanced:img src="/barprima/3.png" alt="" class="w-1/2 rounded-sm" />
+			<img src="/barprima/2.png" alt="" class="w-1/2 rounded-sm" />
+			<img src="/barprima/3.png" alt="" class="w-1/2 rounded-sm" />
 		</div>
 		<div class="relative mb-2 items-start gap-2 overflow-hidden rounded-md">
-			<enhanced:img
+			<img
 				src="/barprima/coaster.gif"
 				alt=""
 				class="absolute left-1/2 top-1/2 w-1/2 -translate-x-1/2 -translate-y-1/2"
 			/>
-			<enhanced:img src="/barprima/4.jpg" alt="" class="z-10 mb-2 rounded-md" />
+			<enhanced:img src="/static/barprima/4.jpg" alt="" class="z-10 mb-2 rounded-md" />
 		</div>
 		<div class="mb-2 flex justify-center overflow-hidden rounded-md bg-[#F4EEE3] py-16">
 			<video src="/barprima/motion3.mov" class="aspect-square w-1/2" autoplay loop
 				><track kind="captions" /></video
 			>
 		</div>
-		<enhanced:img src="/barprima/1.jpg" alt="" class="mb-2 rounded-md" />
+		<enhanced:img src="/static/barprima/1.jpg" alt="" class="mb-2 rounded-md" />
 		<div
 			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-zinc-50 px-12 py-8 md:px-36 md:py-28"
 		>
-			<enhanced:img src="/barprima/history.jpg" alt="" class="mb-2 rounded-md" />
+			<enhanced:img src="/static/barprima/history.jpg" alt="" class="mb-2 rounded-md" />
 		</div>
 		<div class="mb-2 flex justify-center overflow-hidden rounded-md bg-[#F4EEE3] py-16">
 			<video src="/barprima/motion2.mov" class="aspect-square w-1/2" autoplay loop
@@ -33,25 +33,25 @@
 		<div class="mb-2 flex items-start justify-center overflow-hidden rounded-md bg-zinc-50">
 			<!-- svelte-ignore a11y-media-has-caption -->
 			<video src="/barprima/motion.mov" class="aspect-square w-1/2" autoplay loop></video>
-			<enhanced:img src="/barprima/logo.png" alt="" class="aspect-square w-1/2" />
+			<img src="/barprima/logo.png" alt="" class="aspect-square w-1/2" />
 		</div>
-		<enhanced:img src="/barprima/menus5.jpg" alt="" class="mb-2 rounded-md" />
-		<enhanced:img src="/barprima/menus.jpg" alt="" class="mb-2 rounded-md" />
+		<enhanced:img src="/static/barprima/menus5.jpg" alt="" class="mb-2 rounded-md" />
+		<enhanced:img src="/static/barprima/menus.jpg" alt="" class="mb-2 rounded-md" />
 		<div
 			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-zinc-50 px-12 py-8 md:px-48 md:py-36"
 		>
-			<enhanced:img src="/barprima/match.jpg" alt="" class="w-1/2 rounded-sm" />
-			<enhanced:img src="/barprima/menus2.jpg" alt="" class="w-1/2 rounded-sm" />
+			<img src="/barprima/match.jpg" alt="" class="w-1/2 rounded-sm" />
+			<img src="/barprima/menus2.jpg" alt="" class="w-1/2 rounded-sm" />
 		</div>
-		<enhanced:img src="/barprima/menus-4.jpg" alt="" class="mb-2 rounded-md" />
-		<enhanced:img src="/barprima/bc.jpg" alt="" class="mb-2 rounded-md" />
+		<enhanced:img src="/static/barprima/menus-4.jpg" alt="" class="mb-2 rounded-md" />
+		<enhanced:img src="/static/barprima/bc.jpg" alt="" class="mb-2 rounded-md" />
 		<div
 			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-zinc-50 px-12 py-8 md:px-48 md:py-36"
 		>
-			<enhanced:img src="/3.png" alt="" class="w-1/2 rounded-sm" />
+			<img src="/3.png" alt="" class="w-1/2 rounded-sm" />
 		</div>
-		<enhanced:img src="/barprima/bc2.jpg" alt="" class="mb-2 w-full rounded-md" />
-		<img src="/barprima/5.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<enhanced:img src="/static/barprima/bc2.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<img src="/static/barprima/5.jpg" alt="" class="mb-2 w-full rounded-md" />
 	</div>
 
 	<div class="px-4 md:px-2 pr-4 pt-32 md:w-1/3 md:py-1">

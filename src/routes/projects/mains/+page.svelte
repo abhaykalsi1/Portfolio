@@ -3,7 +3,7 @@
 		<div
 			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-zinc-50 px-12 py-8 md:px-48 md:py-36"
 		>
-			<enhanced:img src="/mains/c1.jpg" alt="" class="w-1/2 rounded-sm" />
+			<img src="/mains/c1.jpg" alt="" class="w-1/2 rounded-sm" />
 		</div>
 		<div class="overflow-hidden rounded-md mb-2">
 			<div style="padding:56.25% 0 0 0;position:relative;">
@@ -17,22 +17,22 @@
 				></iframe>
 			</div>
 		</div>
-		<enhanced:img src="/mains/2.jpg" alt="" class="mb-2 w-full rounded-md" />
-		<enhanced:img src="/mains/moodboard.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<enhanced:img src="/static/mains/2.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<enhanced:img src="/static/mains/moodboard.jpg" alt="" class="mb-2 w-full rounded-md" />
 		<div
 			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-zinc-50 px-12 py-8 md:px-48 md:py-36"
 		>
-			<enhanced:img src="/mains/spotify.jpg" alt="" class="w-1/2 rounded-sm" />
-			<enhanced:img src="/mains/spotify-2.jpg" alt="" class="w-1/2 rounded-sm" />
+			<img src="/mains/spotify.jpg" alt="" class="w-1/2 rounded-sm" />
+			<img src="/mains/spotify-2.jpg" alt="" class="w-1/2 rounded-sm" />
 		</div>
-		<enhanced:img src="/mains/3.jpg" alt="" class="mb-2 w-full rounded-md" />
-		<enhanced:img src="/placeholder.png" alt="" class="mb-2 w-full rounded-md" />
-		<enhanced:img src="/mains/4.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<enhanced:img src="/static/mains/3.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<enhanced:img src="/static/placeholder.png" alt="" class="mb-2 w-full rounded-md" />
+		<enhanced:img src="/static/mains/4.jpg" alt="" class="mb-2 w-full rounded-md" />
 		<div
 			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-black px-12 py-8 md:px-48 md:py-36"
 		>
-			<enhanced:img src="/mains/bk1.jpg" alt="" class="w-1/2" />
-			<enhanced:img src="/mains/bk2.jpg" alt="" class="w-1/2" />
+			<img src="/mains/bk1.jpg" alt="" class="w-1/2" />
+			<img src="/mains/bk2.jpg" alt="" class="w-1/2" />
 		</div>
 	</div>
 
