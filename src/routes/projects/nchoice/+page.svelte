@@ -3,30 +3,30 @@
 		<div
 			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-zinc-50 px-12 py-8 md:px-48 md:py-36"
 		>
-			<img src="/nchoice/2.jpg" alt="" class="w-1/2 rounded-sm" />
-			<img src="/nchoice/6.jpg" alt="" class="w-1/2 rounded-sm" />
+			<enhanced:img src="/nchoice/2.jpg" alt="" class="w-1/2 rounded-sm" />
+			<enhanced:img src="/nchoice/6.jpg" alt="" class="w-1/2 rounded-sm" />
 		</div>
-		<img src="/nchoice/5.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<enhanced:img src="/nchoice/5.jpg" alt="" class="mb-2 w-full rounded-md" />
 		<div
 			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-black px-12 py-8 md:px-48 md:py-36"
 		>
-			<img src="/nchoice/logo.png" alt="" class="w-1/2" />
+			<enhanced:img src="/nchoice/logo.png" alt="" class="w-1/2" />
 		</div>
 		<div
 			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-zinc-50 px-12 py-8 md:px-48 md:py-36"
 		>
-			<img src="/nchoice/9.jpg" alt="" class="w-full rounded-sm" />
+			<enhanced:img src="/nchoice/9.jpg" alt="" class="w-full rounded-sm" />
 		</div>
-		<img src="/nchoice/ill.jpg" alt="" class="mb-2 w-full rounded-md" />
-		<img src="/nchoice/4.jpg" alt="" class="mb-2 w-full rounded-md" />
-		<img src="/nchoice/1.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<enhanced:img src="/nchoice/ill.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<enhanced:img src="/nchoice/4.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<enhanced:img src="/nchoice/1.jpg" alt="" class="mb-2 w-full rounded-md" />
 		<div
 			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-zinc-50 px-12 py-8 md:px-48 md:py-36"
 		>
-			<img src="/nchoice/8.jpg" alt="" class="w-full rounded-sm" />
+			<enhanced:img src="/nchoice/8.jpg" alt="" class="w-full rounded-sm" />
 		</div>
-		<img src="/nchoice/7.jpg" alt="" class="mb-2 w-full rounded-md" />
-		<img src="/nchoice/10.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<enhanced:img src="/nchoice/7.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<enhanced:img src="/nchoice/10.jpg" alt="" class="mb-2 w-full rounded-md" />
 	</div>
 
 	<div class="px-4 pr-4 pt-32 md:w-1/3 md:px-2 md:py-1">

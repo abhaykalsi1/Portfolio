@@ -3,31 +3,31 @@
 		<div
 			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-zinc-50 px-12 py-8 md:px-48 md:py-36"
 		>
-			<img src="/ppp/5.jpg" alt="" class="w-1/2 rounded-sm" />
-			<img src="/ppp/6.jpg" alt="" class="w-1/2 rounded-sm" />
+			<enhanced:img src="/ppp/5.jpg" alt="" class="w-1/2 rounded-sm" />
+			<enhanced:img src="/ppp/6.jpg" alt="" class="w-1/2 rounded-sm" />
 		</div>
-		<img src="/ppp/ppp.jpg" alt="" class="mb-2 w-full rounded-md" />
-        <img src="/ppp/Light.jpg" alt="" class="mb-2 w-full rounded-md" />
+		<enhanced:img src="/ppp/ppp.jpg" alt="" class="mb-2 w-full rounded-md" />
+        <enhanced:img src="/ppp/Light.jpg" alt="" class="mb-2 w-full rounded-md" />
 		<div
 			class="mb-2 flex justify-center overflow-hidden rounded-md bg-black px-12 py-8 md:px-48 md:py-40"
 		>
 			<video src="/ppp/motion.mov" class="w-full" autoplay loop><track kind="captions" /></video>
 		</div>
-        <img src="/ppp/PPP_Web_3.jpg" alt="" class="mb-2 w-full rounded-md" />
+        <enhanced:img src="/ppp/PPP_Web_3.jpg" alt="" class="mb-2 w-full rounded-md" />
         <div
 			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-zinc-50 px-12 py-8 md:px-48 md:py-40"
 		>
-			<img src="/ppp/bc2.jpg" alt="" class="w-4/5 rounded-sm" />
+			<enhanced:img src="/ppp/bc2.jpg" alt="" class="w-4/5 rounded-sm" />
 		</div>
-        <img src="/ppp/PPP_Web_1.jpg" alt="" class="mb-2 w-full rounded-md" />
+        <enhanced:img src="/ppp/PPP_Web_1.jpg" alt="" class="mb-2 w-full rounded-md" />
         <div
 			class="mb-2 flex items-start justify-center gap-2 overflow-hidden rounded-md bg-zinc-50 px-12 py-8 md:px-48 md:py-40"
 		>
-			<img src="/ppp/1.jpg" alt="" class="w-1/2 rounded-sm" />
-			<img src="/ppp/2.jpg" alt="" class="w-1/2 rounded-sm" />
-            <img src="/ppp/4.jpg" alt="" class="w-1/2 rounded-sm" />
+			<enhanced:img src="/ppp/1.jpg" alt="" class="w-1/2 rounded-sm" />
+			<enhanced:img src="/ppp/2.jpg" alt="" class="w-1/2 rounded-sm" />
+            <enhanced:img src="/ppp/4.jpg" alt="" class="w-1/2 rounded-sm" />
 		</div>
-        <img src="/ppp/PPP_Web_2.jpg" alt="" class="mb-2 w-full rounded-md" />
+        <enhanced:img src="/ppp/PPP_Web_2.jpg" alt="" class="mb-2 w-full rounded-md" />
 	</div>
 
 	<div class="px-4 pr-4 pt-32 md:w-1/3 md:px-2 md:py-1">
