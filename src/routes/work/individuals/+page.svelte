@@ -3,7 +3,7 @@
 		<div class="w-1/4">
 			<h2>01</h2>
 		</div>
-		<a href="nvsble.ca" target="_blank" class="w-3/4 cont border-none">
+		<a href="https://nvsble.ca" target="_blank" class="w-3/4 cont border-none">
 				<h2>NVSBLE inc.</h2>
 				<h1 class="project-name">Website ↗</h1>
 				<enhanced:img src="/static/icons/nvsble.webp" alt="" class="aspect-square w-24" />
@@ -33,7 +33,7 @@
 		<div class="w-1/4">
 			<h2>04</h2>
 		</div>
-		<a href="fridaandblu.com" target="_blank" class="cont w-3/4 border-none">
+		<a href="https://fridaandblu.com" target="_blank" class="cont w-3/4 border-none">
 			<h2>Frida & Blu</h2>
 			<h1 class="project-name">Website ↗</h1>
 			<enhanced:img src="/static/icons/fridablu.jpg" alt="" class="aspect-square w-24 border" />
