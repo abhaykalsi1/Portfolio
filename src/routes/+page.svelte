@@ -12,7 +12,9 @@
 		<Text />
 
 		{@html '<!-- Hero Illustration -->'}
-		<div class="pointer-events-none absolute flex h-full w-full items-center justify-center mb-16 md:mb-0">
+		<div
+			class="pointer-events-none absolute mb-32 flex h-full w-full items-center justify-center md:mb-0"
+		>
 			<Gdip src={'/gdip/text.png'} width={25} distance={40} />
 			<Gdip src={'/gdip/focus.png'} width={30} distance={20} />
 			<Gdip src={'/gdip/table.png'} width={30} distance={5} />
