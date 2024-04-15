@@ -15,7 +15,7 @@
 			<enhanced:img src="/static/barprima/4.jpg" alt="" class="z-10 mb-2 rounded-md" />
 		</div>
 		<div class="mb-2 flex justify-center overflow-hidden rounded-md bg-[#F4EEE3] py-16">
-			<video src="/barprima/motion3.mov" class="aspect-square w-1/2" autoplay loop
+			<video src="/barprima/motion3.mp4" class="aspect-square w-1/2" autoplay loop
 				><track kind="captions" /></video
 			>
 		</div>
@@ -26,13 +26,13 @@
 			<enhanced:img src="/static/barprima/history.jpg" alt="" class="mb-2 rounded-md" />
 		</div>
 		<div class="mb-2 flex justify-center overflow-hidden rounded-md bg-[#F4EEE3] py-16">
-			<video src="/barprima/motion2.mov" class="aspect-square w-1/2" autoplay loop
+			<video src="/barprima/motion2.mp4" class="aspect-square w-1/2" autoplay loop
 				><track kind="captions" /></video
 			>
 		</div>
 		<div class="mb-2 flex items-start justify-center overflow-hidden rounded-md bg-zinc-50">
 			<!-- svelte-ignore a11y-media-has-caption -->
-			<video src="/barprima/motion.mov" class="aspect-square w-1/2" autoplay loop></video>
+			<video src="/barprima/motion.mp4" class="aspect-square w-1/2" autoplay loop></video>
 			<img src="/barprima/logo.png" alt="" class="aspect-square w-1/2" />
 		</div>
 		<enhanced:img src="/static/barprima/menus5.jpg" alt="" class="mb-2 rounded-md" />

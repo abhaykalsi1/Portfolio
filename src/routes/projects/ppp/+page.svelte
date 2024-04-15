@@ -11,7 +11,7 @@
 		<div
 			class="mb-2 flex justify-center overflow-hidden rounded-md bg-black px-12 py-8 md:px-48 md:py-40"
 		>
-			<video src="/ppp/motion.mov" class="w-full" autoplay loop><track kind="captions" /></video>
+			<video src="/ppp/motion.mp4" class="w-full" autoplay loop><track kind="captions" /></video>
 		</div>
         <enhanced:img src="/static/ppp/PPP_Web_3.jpg" alt="" class="mb-2 w-full rounded-md" />
         <div
