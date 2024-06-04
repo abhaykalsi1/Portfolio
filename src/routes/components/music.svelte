@@ -31,7 +31,7 @@
 
 	<div class="mt-2 h-[450px] w-4/5 overflow-hidden rounded-[10px] bg-stone-300">
 		{#if activeMusic === 'appleMusic'}
-			<MusicEmbed src="https://embed.music.apple.com/in/playlist/march-2024/pl.u-11zBBE3CNDJraJY" />
+			<MusicEmbed src="https://embed.music.apple.com/in/playlist/may-2024/pl.u-38oWWy8tYkWxEWp" />
 		{/if}
 		{#if activeMusic === 'spotify'}
 			<MusicEmbed
